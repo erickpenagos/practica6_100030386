@@ -1,0 +1,46 @@
+/* Sobreescribir color del botón primario*/
+.btn-primary {
+    background-color: #E67E22;
+    border-color: #D35400;
+}
+.btn-primary:hover {
+    background-color: #D35400;
+    border-color: #BA4A00;
+}
+
+.btn-outline-primary {
+    color: #D35400;
+    border-color: #D35400;
+}
+.btn-outline-primary:hover {
+    background-color: #D35400;
+    border-color: #D35400;
+    color: #FFFFFF;
+}
+
+/* Navbar personalizada */
+.navbar {
+    border-bottom: 4px solid #E67E22;
+}
+
+/* Estilo propio para la sección hero */
+.seccion-hero {
+    background: linear-gradient(135deg, #8E44AD 0%, #C0392B 100%);
+    color: #FFFFFF;
+}
+.seccion-hero h1,
+.seccion-hero p {
+    color: #FFFFFF;
+}
+
+/* Cards con efecto hover */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border: none;
+}
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(230, 126, 34, 0.2);
+}
